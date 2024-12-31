@@ -1,7 +1,3 @@
-# TODO: Подробно описать три произвольных класса
-
-
-# TODO: описать класс
 class Library:
     def __init__(self, name: str, capacity: int):
         """
@@ -28,7 +24,7 @@ class Library:
         :raises ValueError: Если библиотека заполнена.
 
         >>> library = Library("Городская библиотека", 2)
-        >>> library.add_book("Преступление и нааказание")
+        >>> library.add_book("Преступление и наказание")
         >>> library.add_book("Мастер и Маргарита")
         >>> library.books
         ['Преступление и наказание', 'Мастер и Маргарита']
@@ -52,7 +48,6 @@ class Library:
         return len(self.books)
 
 
-# TODO: описать ещё класс
 class Student:
     def __init__(self, name: str, grade: int, gpa: float):
         """
@@ -101,7 +96,6 @@ class Student:
         return f'Учащийся: {self.name}, Класс: {self.grade}, Средний балл: {self.gpa}'
 
 
-# TODO: и ещё один
 class Worker:
     def __init__(self, name: str, position: str, salary: float):
         """
